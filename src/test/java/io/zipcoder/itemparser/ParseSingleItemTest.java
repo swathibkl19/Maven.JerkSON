@@ -16,6 +16,7 @@ public class ParseSingleItemTest {
         Item expected = new Item("milk", 3.23, "food", "1/25/2016");
 
         // when
+
         Item actual = itemParser.parseSingleItem(valueToParse);
 
         // then
